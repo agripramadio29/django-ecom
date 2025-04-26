@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Remove default card borders */
+.card.border-0 {
+    border: none;
+}
+
+/* 3D Effect: Add shadow and slight lift */
+.card.shadow-3d {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* initial shadow */
+}
+
+/* Add more shadow and lift on hover */
+.card.shadow-3d:hover {
+    transform: translateY(-5px); /* Slight lift */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+}
+
+/* Adjust gap between rows */
+

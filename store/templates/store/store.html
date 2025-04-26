@@ -1,0 +1,28 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+    <body>
+    <div class="container my-4">
+        <!-- Advertisement Card -->
+        <div class="card rounded-5 mb-5">
+            <img src="{% static 'images/advert.jpg' %}" class="card-img-top rounded-5" alt="Advertisement">
+        </div>
+        <h2 class="text-black font-weight-bold">Ini Lagi Ngetren Parah Nih!!</h2>
+        <!-- Grid of 6 Cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% for item in items %}
+                <div class="col">
+                    <div class="card h-100 text-center border-white">
+                        <img src="{% static item.image %}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">{{ item.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+    </body>
+
+{% endblock content %}
