@@ -21,4 +21,83 @@ html, body {
 }
 
 /* Adjust gap between rows */
+/* cart.css */
+
+/* General spacing for the page */
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Card shadows for summary and support */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+/* Product Image */
+.img-thumbnail {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Product Name Link */
+h5 a {
+    color: #333;
+    font-weight: 600;
+}
+
+h5 a:hover {
+    text-decoration: underline;
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+/* Price styling */
+.text-decoration-line-through {
+    font-size: 0.9rem;
+}
+
+.fw-bold {
+    font-size: 1.2rem;
+}
+
+/* Button styling */
+.btn-outline-secondary,
+.btn-outline-danger {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+}
+
+.btn-primary {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Quantity input */
+input[type="number"] {
+    width: 70px;
+    text-align: center;
+}
+
+/* Summary section title */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Support phone number */
+a[href^="tel:"] {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0d6efd;
+}
+
+/* Small text adjustments */
+small {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
 

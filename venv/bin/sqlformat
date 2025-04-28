@@ -1,4 +1,4 @@
-#!/home/sdd-user/Documents/GitHub/django-ecom/venv/bin/python3
+#!/home/edwardharris/Documents/GitHub/django-ecom/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
